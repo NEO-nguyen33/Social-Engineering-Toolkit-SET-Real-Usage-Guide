@@ -41,5 +41,3 @@ SET is a powerful tool for **social engineering attacks**. It automates phishing
 
 ```bash
 sudo setoolkit
-
----
