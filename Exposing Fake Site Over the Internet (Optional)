@@ -1,0 +1,31 @@
+📡 Exposing Fake Site Over the Internet (Optional)
+Use ngrok to expose your phishing server to the internet:
+ngrok http 80
+
+You will get a public link like:
+https://23f3-104-20-123-45.ngrok.io
+Now anyone visiting that link will see your fake login page (again, lab-only).
+
+💬 Extra Tips
+Use custom web templates with SET
+
+Combine with BeEF or evilginx for advanced phishing
+
+SET can also:
+
+Send spear-phishing emails
+
+Generate QR code payloads
+
+Perform PowerShell-based attacks (on Windows)
+
+🔐 Defense (Blue Team Insight)
+Never trust suspicious links or .exe attachments
+
+Verify domain names and SSL certs
+
+Use password managers and 2FA
+
+🛑 LEGAL WARNING
+This tool is meant for training, defense, and ethical hacking only.
+Unauthorized access or deception is illegal and punishable by law.
